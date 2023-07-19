@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de Senha</title>
+    <link rel="stylesheet" href="validador.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SENHA SAFE</h1>
+        <input type="password" name="Senha" id="txtsenha" placeholder="Digite a senha" >
+        <p>A senha deve conter : </p>
+        <ul class="contem">
+            <li>Pelo menos 8 caracteres</li>
+            <li>Pelo menos 1 número (1...9)</li>
+            <li>Pelo menos 1 letra minúscula (a...z)</li>
+            <li>Pelo menos 1 caractere especial (!...$)</li>
+            <li>Pelo menos 1 letra Maiúscula (A...Z)</li>
+        </ul>
+        <div>
+            <button onclick="senhavalidada()">Validar</button>
+        </div>
+    </div>
+    <script src="validador.js"></script>
+</body>
+</html>
